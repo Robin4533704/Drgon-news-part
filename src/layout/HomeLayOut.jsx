@@ -5,7 +5,7 @@ import LatestNewa from '../components/home/LatestNewa';
 import Navber from '../components/home/Navber';
 import RightAside from '../components/home/homelayout/RightAside';
 import LeftAside from '../components/home/homelayout/LeftAside';
-import CategoriesNews from '../pages/CategoriesNews';
+
 
 const HomeLayOut = () => {
     return (
@@ -31,13 +31,7 @@ const HomeLayOut = () => {
               </section>
                <aside className='col-span-3'> <RightAside/> </aside>
                     </main>
-                   
-                    
-                   
-              
-               
-               
-                <section className="right_nav">
+                   <section className="right_nav">
                     
                 </section>
             </main>

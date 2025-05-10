@@ -24,7 +24,7 @@ useEffect(()=>{
 },[data,id])
     return (
         <div>
-            <h2 className='font-bold mb-5'>Total- <span className='bg-secondary'>{categoryNews.length}</span> found News</h2>
+            <h2 className='font-bold mb-5'>Total- <span className='text-secondary'>{categoryNews.length}</span> found News</h2>
             <div className='grid grid-cols-1 gap-5'>
            
            {
